@@ -17,3 +17,12 @@ C:\Users\lenovo\Desktop\esprit 4 DS\AirportManagement\AM.UIConsole\obj\Debug\net
 C:\Users\lenovo\Desktop\esprit 4 DS\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.pdb
 C:\Users\lenovo\Desktop\esprit 4 DS\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.genruntimeconfig.cache
 C:\Users\lenovo\Desktop\esprit 4 DS\AirportManagement\AM.UIConsole\obj\Debug\net8.0\ref\AM.UIConsole.dll
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.sourcelink.json
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.dll
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\refint\AM.UIConsole.dll
+C:\Users\lenovo\Desktop\esprit 4 DS\SI 1\AirportManagement\AM.UIConsole\obj\Debug\net8.0\AM.UIConsole.pdb

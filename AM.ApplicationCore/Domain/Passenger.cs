@@ -8,39 +8,43 @@ namespace AM.ApplicationCore.Domain
 {
     public class Passenger
     {
-        public DateTime Birthdate { get; set; }
-        public string PassportNumber { get; set; } 
-        public DateTime FlightDate { get; set; }
+        public string PassportNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int TelNumber { get; set; }
-        public string EmailAdress { get; set; }
-
+        public DateTime BirthDate { get; set; }
+        public string TelNumber { get; set; }
+        public string EmailAddress { get; set; }
         public ICollection<Flight> Flights { get; set; }
-
-
         public override string ToString()
         {
-            return "FirstName" + FirstName
-                + "" + "BirthDate" + Birthdate;
+            return "FirstName: " + FirstName 
+                + " LastName: " + LastName
+                + " BirthDate: " + BirthDate;
         }
-
-        /*public Boolean checkProfile (string firstName, string lastName)
+        //public bool CheckProfile(string FirstName, string LastName)
+        //{
+        //    return this.FirstName == FirstName && this.LastName == LastName;
+             
+        //}
+        //public bool CheckProfile(string FirstName, string LastName,string email)
+        //{
+        //    return this.FirstName == FirstName && this.LastName == LastName
+        //        && EmailAddress==email;
+        // }
+        public bool CheckProfile(string FirstName, string LastName, string email=null)
         {
-            return (FirstName == firstName && LastName == lastName);
-        }
-        public Boolean checkProfile(string firstName, string lastName, string email)
-        {
-            return (FirstName == firstName && LastName == lastName && EmailAdress == email);
-        }*/
-
-        public Boolean checkProfile(string firstName, string lastName, string email=null)
-        {
-            if (email == null)
-                return FirstName == firstName && LastName == lastName;
+            if(email != null)
+            return this.FirstName == FirstName && this.LastName == LastName
+                && EmailAddress == email;
             else
-                return FirstName == firstName && LastName == lastName && EmailAdress == email;
+                return this.FirstName == FirstName && this.LastName == LastName;
+
         }
+        public virtual void PassengerType()
+        {
+            Console.WriteLine("I am the passenger: "+FirstName);
+        }
+
 
     }
 }

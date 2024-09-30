@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\airportmanagement\\am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\interfaces\\iflightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\airportmanagement\\am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.applicationcore\\domain\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE945EB5-08B8-4CAE-B39F-39DEADEE78EE}|AM.UIConsole\\AM.UIConsole.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\airportmanagement\\am.uiconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\services\\flightmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE945EB5-08B8-4CAE-B39F-39DEADEE78EE}|AM.UIConsole\\AM.UIConsole.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.uiconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE945EB5-08B8-4CAE-B39F-39DEADEE78EE}|AM.UIConsole\\AM.UIConsole.csproj|solutionrelative:am.uiconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\airportmanagement\\am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\airportmanagement\\am.applicationcore\\domain\\traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\airportmanagement\\am.applicationcore\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.applicationcore\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\airportmanagement\\am.applicationcore\\am.applicationcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\am.applicationcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\passenger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE945EB5-08B8-4CAE-B39F-39DEADEE78EE}|AM.UIConsole\\AM.UIConsole.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\airportmanagement\\am.uiconsole\\am.uiconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DE945EB5-08B8-4CAE-B39F-39DEADEE78EE}|AM.UIConsole\\AM.UIConsole.csproj|solutionrelative:am.uiconsole\\am.uiconsole.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.applicationcore\\domain\\traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\traveller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|c:\\users\\lenovo\\desktop\\esprit 4 ds\\si 1\\airportmanagement\\am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36BBB76-1364-4116-A1EC-904854FC6337}|AM.ApplicationCore\\AM.ApplicationCore.csproj|solutionrelative:am.applicationcore\\domain\\plane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,30 +46,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Flight.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Flight.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Flight.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Flight.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Flight.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FlightMethods.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Services\\FlightMethods.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T09:15:15.062Z",
+              "WhenOpened": "2024-09-23T08:34:22.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "IFlightMethods.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Interfaces\\IFlightMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T08:32:45.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.UIConsole\\Program.cs",
               "RelativeDocumentMoniker": "AM.UIConsole\\Program.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.UIConsole\\Program.cs",
               "RelativeToolTip": "AM.UIConsole\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T08:54:24.664Z",
               "EditorCaption": ""
@@ -73,79 +90,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Plane.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Plane.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Plane.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Plane.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Plane.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBoAAAAIAAAAAAAAAA==",
+              "Title": "TestData.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\TestData.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\TestData.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\TestData.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\TestData.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T09:02:48.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Passenger.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Passenger.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Passenger.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Passenger.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Passenger.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T09:20:35.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Traveller.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Traveller.cs",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Traveller.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Traveller.cs",
-              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Traveller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T09:24:10.855Z",
+              "WhenOpened": "2024-09-23T08:38:28.537Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Staff.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Staff.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Staff.cs",
               "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Staff.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\Domain\\Staff.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Staff.cs",
               "RelativeToolTip": "AM.ApplicationCore\\Domain\\Staff.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T09:23:16.413Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Flight.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Flight.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Flight.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Flight.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:15:15.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AM.ApplicationCore",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-              "RelativeDocumentMoniker": "AM.ApplicationCore\\AM.ApplicationCore.csproj",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
-              "RelativeToolTip": "AM.ApplicationCore\\AM.ApplicationCore.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-16T08:59:43.162Z",
+              "Title": "Passenger.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Passenger.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Passenger.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Passenger.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Passenger.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:20:35.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AM.UIConsole",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj",
-              "RelativeDocumentMoniker": "AM.UIConsole\\AM.UIConsole.csproj",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj",
-              "RelativeToolTip": "AM.UIConsole\\AM.UIConsole.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-16T08:58:53.409Z",
+              "Title": "Traveller.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Traveller.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Traveller.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Traveller.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Traveller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:24:10.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Plane.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Plane.cs",
+              "RelativeDocumentMoniker": "AM.ApplicationCore\\Domain\\Plane.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\Domain\\Plane.cs",
+              "RelativeToolTip": "AM.ApplicationCore\\Domain\\Plane.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T09:02:48.472Z",
               "EditorCaption": ""
             }
           ]

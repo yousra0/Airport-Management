@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj": {}
+    "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "projectName": "AM.ApplicationCore",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj": {
+    "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj",
         "projectName": "AM.UIConsole",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.UIConsole\\AM.UIConsole.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.UIConsole\\obj\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.UIConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +90,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
+              "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\esprit 4 DS\\SI 1\\AirportManagement\\AM.ApplicationCore\\AM.ApplicationCore.csproj"
               }
             }
           }
