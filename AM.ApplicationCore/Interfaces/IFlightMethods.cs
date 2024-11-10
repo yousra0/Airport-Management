@@ -20,5 +20,17 @@ namespace AM.ApplicationCore.Interfaces
 
         //Retourner les Vols ordonnés par EstimatedDuration du plus long au plus court
         IEnumerable<Flight> OrderedDurationFlights();
+
+        //Retourner la moyenne de durée estimées des vols d’une destination donnée
+        double DurationAverage(string destination);
+
+        //Retourner le nombre de vols programmés pour une semaine à partir d’une date donnée
+        int ProgrammedFlightNumber(DateTime startDate);
+
+        //Retourner les 3 passagers, de type traveller, les plus âgés d’un vol
+        IEnumerable<Traveller> SeniorTravellers(Flight flight);
+
+        //Retourner les vols groupés par destination et les afficher
+        IEnumerable<IGrouping<string, Flight>> DestinationGroupedFlights();
     }
 }
