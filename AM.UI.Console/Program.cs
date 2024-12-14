@@ -1,117 +1,86 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
+
 using AM.ApplicationCore.Domain;
 using AM.ApplicationCore.Services;
+using AM.Infrastructure;
 
 Console.WriteLine("Hello, World!");
 
-//constructeur non paramétré
 Plane plane = new Plane();
-
 plane.Capacity = 100;
 plane.ManufactureDate = DateTime.Now;
-plane.PlaneType = PlaneType.Boeing;
+plane.PlaneType = PlaneType.Airbus;
 
-
-//constructeur paramétré
-//Plane plane1  =  new Plane(100,DateTime.Now,PlaneType.Airbus);
-
-//initialiseur d'objets
-Plane plane2 = new Plane { Capacity = 200, 
-                           ManufactureDate= new DateTime(2024,09,01)};
-
-//affichage
+//Plane plane2 = new Plane(200,new DateTime(2024,12,11,12,12,00),PlaneType.Boeing);
+//Initialiseur d'objets
+Plane plane2 =  new Plane{Capacity=200,PlaneType=PlaneType.Boeing,
+    ManufactureDate= new DateTime(2024, 12, 11, 12, 12, 00) };
 Console.WriteLine(plane);
-
-//création / initialisation d'un objet Passenger
-Passenger p1 = new Passenger { FirstName = "yousra",
-                                LastName = "chaieb",
-                                EmailAddress = "yousra.chaieb@esprit.tn"};
-
-//vérification du profil avec CheckProfile
-Console.WriteLine("************ Check Profile ************");
-Console.WriteLine(p1.CheckProfile("yousra","chaieb","abc"));
-
-
-//Appel de la méthode PassengerType
-Console.WriteLine("************ Passenger Type ************");
-
-//Création des objets Staff et Traveller
-Staff s1 = new Staff { FirstName = "staff1" };
-Traveller t1 = new Traveller { FirstName = "traveller1" };
-
+Passenger p1 = new Passenger {FullName=new FullName
+{
+    FirstName = "amina",
+    LastName = "aoun"
+},
+                               EmailAddress="amina.aoun@esprit.tn"};
+Console.WriteLine("*****CheckProfile********");
+Console.WriteLine(p1.CheckProfile("Amina", "Aoun"));
+Console.WriteLine(p1.CheckProfile("amina", "aoun","abc"));
+Staff s1 = new Staff{FullName=new FullName { FirstName = "Staff1" } };
+Traveller t1 = new Traveller { FullName = new FullName { FirstName = "Traveller1" } };
+Console.WriteLine("*****PassengerType********");
 p1.PassengerType();
-t1.PassengerType();
 s1.PassengerType();
-
-//tester la méthode qui retourne les dates de vols
-Console.WriteLine("************ Get Flight Dates ************");
-FlightMethods fm = new FlightMethods();
+t1.PassengerType();
+FlightMethods fm= new FlightMethods();
 fm.Flights = TestData.listFlights;
-/*for(int i = 0; i < fm.GetFlightDates("Paris").Count; i++)
-    Console.WriteLine(fm.GetFlightDates("Paris")[i]);*/
-foreach (DateTime d in fm.GetFlightDates("Paris"))
+Console.WriteLine("*****GetFlightDates********");
+foreach(DateTime d in fm.GetFlightDates("Paris"))
     Console.WriteLine(d);
-
-
-//tester la méthode qui affiche les vols en fonction de type de filtre et sa valeur
-Console.WriteLine("************ Get Flights ************");
+Console.WriteLine("*****GetFlights********");
 fm.GetFlights("Destination", "Madrid");
 fm.GetFlights("EstimatedDuration", "100");
-
-//Afficher les dates et les destinations des vols d’un avion passé en paramètre
-Console.WriteLine("************ Show Flight Details ************");
+Console.WriteLine("*******ShowFlightDetails*******");
 fm.ShowFlightDetails(TestData.BoingPlane);
-
-//tri desc selon date
-//Retourner les Vols ordonnés par EstimatedDuration du plus long au plus court
-Console.WriteLine("************ Ordered Duration Flights ************");
-foreach (Flight f in fm.OrderedDurationFlights())
-    Console.WriteLine(f); ;
-
-//moyenne de durée 
-//Retourner la moyenne de durée estimées des vols d’une destination donnée
-Console.WriteLine("************ Average Duration ************");
+Console.WriteLine("*****OrderedDurationFlights*****");
+foreach(Flight f in fm.OrderedDurationFlights())
+    Console.WriteLine(f);
+Console.WriteLine("*********DurationAverage*********");
 Console.WriteLine(fm.DurationAverage("Paris"));
-
-//appel avec le délégué
-Console.WriteLine("************ Average Duration Avec Délégué************");
+Console.WriteLine("appel avec delegate");
 Console.WriteLine(fm.DurationAverageDel("Paris"));
-
-//comparer 2 dates
-//Retourner le nombre de vols programmés pour une semaine à partir d’une date donnée
-Console.WriteLine("************ Programmed Flight Number ************");
+Console.WriteLine("*************ProgrammedFlightNumber******");
 Console.WriteLine(fm.ProgrammedFlightNumber(new DateTime(2021,12,31)));
-
-//chercher 3 passagers les plus agés de type traveller
-//Retourner les 3 passagers, de type traveller, les plus âgés d’un vol
-Console.WriteLine("************ Senior Travellers ************");
-foreach (Traveller t in fm.SeniorTravellers(TestData.flight1))
-{
-    Console.WriteLine($"FirstName: {t.FirstName}, LastName {t.LastName}, Date of Birth: {t.BirthDate.ToShortDateString()}");
-}
-
-//Retourner les vols groupés par destination et les afficher
-Console.WriteLine("************ Destination grouped Flights ************");
+//Console.WriteLine("*************SeniorTravellers******");
+//foreach(Traveller t in fm.SeniorTravellers(TestData.flight1))
+//    Console.WriteLine(t);
+Console.WriteLine("********DestinationGroupedFlights*******");
 fm.DestinationGroupedFlights();
-
-//Extension
-Console.WriteLine("******** Extension ********");
+Console.WriteLine("******UpperFullName********");
 p1.UpperFullName();
-Console.WriteLine(p1.FirstName+" "+p1.LastName);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Console.WriteLine(p1.FullName.FirstName+" "+p1.FullName.LastName);
+//insertion dans la table Flight
+Plane plane1 = new Plane {Capacity=100,
+                          ManufactureDate=DateTime.Now,
+                          PlaneType=PlaneType.Airbus};
+Flight flight1 = new Flight
+{
+    Departure = "Tunis",
+    Destination = "Paris",
+    EffectiveArrival = new DateTime(2024, 11, 05),
+    FlightDate = new DateTime(2024, 11, 05),
+    AirlineLogo = "logo",
+    EstimatedDuration = 100,
+    Plane = plane1
+};
+AMContext ctx = new AMContext();
+UnitOfWork uow = new UnitOfWork(ctx);
+ServicePlane sp = new ServicePlane(uow);
+ServiceFlight sf = new ServiceFlight(uow);
+sp.Add(plane1);
+sf.Add(flight1);
+sp.Commit();
+Console.WriteLine("insertion avec succès");
+foreach(Flight f in sf.GetMany())
+    Console.WriteLine("Destination: " +f.Destination+
+                       "Plane Capacity: "+f.Plane.Capacity);
